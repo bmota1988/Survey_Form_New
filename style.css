@@ -1,0 +1,99 @@
+body {
+    font-family: Tahoma;
+    font-size: 16px;
+    background-color: rgba(230, 0, 0, 0.1);
+   }
+
+h1 {
+    color: rgba(230, 0, 0, 0.8);
+}
+
+p {
+    font-style: italic;
+}
+
+h1, p {
+    text-align: center;
+}
+
+#survey-form {
+    width: 50%;
+    display: block;
+    margin: auto;
+    background-color: rgba(0, 0, 255, 0.1);
+    min-width: 500px;
+}
+
+.form-field {
+    border: none;
+    margin: 2em 1em;
+}
+
+.form-field label {
+    display: block;
+    margin: 1em 1em;
+}
+
+#name-label input, #email-label input, #number-label input {
+    display: block;
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+}
+
+#dropdown  {
+    border: none;
+    display: block;
+    margin-top: 10px;
+    height: 25px;
+    width: 100%;
+    font-size: 16px;
+    font-family: Tahoma;
+}
+
+.form-field input {
+    border: none;
+    font-size: 14px;
+    font-family: Tahoma;   
+}
+
+.form-field .form-gender {
+    display: unset;
+}
+
+.form-gender input[type="checkbox"]:checked {
+    background-color:rgba(230, 0, 0, 0.8);
+}
+
+#text-label {
+    text-align: center;
+}
+
+#text-label textarea {
+    margin-top: 10px;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(230, 0, 0, 0.5);
+    border: none;
+    width: 30%;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin: 2em 0;
+}

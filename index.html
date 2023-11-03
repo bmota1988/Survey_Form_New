@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form - by Bruno Mota</h1>
+    <p id="description">Please fill the questions bellow</p>
+    <form id="survey-form" action="https://ca.linkedin.com/in/bruno-nascimento-mota-83212965/en?trk=people-guest_people_search-card" method="post">
+      <fieldset class="form-field">
+        <label id="name-label" for="name">Enter your name: <input id="name" type="text" name="name" placeholder=" Name" required /></label>
+        <label id="email-label" for="email">Enter your email: <input id="email" type="email" name="email" minlength="8" placeholder=" Email" required /></label>
+        <label id="number-label" for="age">Age (optional): <input id="number" type="number" name="number" min="10" max="120" placeholder=" Age" /></label>
+        <hr>
+        <label> Select your prefered hobby?
+          <select id="dropdown">
+            <option> (select one)</option>
+            <option name="sport" value="sport"> Sport</option>
+            <option name="study" value="study"> Study</option>
+            <option name="watch-tv" value="watch tv"> Watch TV</option>
+            <option name="play-video-game" value="play-video-game"> Play Video Game</option>
+            <option name="other" value="other"> Other</option>
+          </select>
+        </label>
+        <hr>
+        <label class="form-gender"> Select your gender
+          <input type="radio" name="gender" value="male"> Male
+        </label>
+        <label class="form-gender">
+          <input type="radio" name="gender" value="female"> Female
+        </label>
+        <hr>
+        <label> Select your prefered social media
+          <label><input type="checkbox" value="youtube" name="youtube">YouTube</label>
+          <label><input type="checkbox" value="instagram" name="instagram">Instagram</label>
+          <label><input type="checkbox" value="facebook" name="facebook">Fecebook</label>
+          <label><input type="checkbox" value="tiktok" name="tiktok">TikTok</label>
+          <label><input type="checkbox" value="orkut" name="orkut">Orkut</label>  
+        </label>
+        <hr>
+        <label id="text-label"> Comments or suggestions
+          <textarea rows="10" cols="60"></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit" name="submit">
+    </fieldset>    
+    </form>
+    <footer>Created by Bruno Mota to FreeCodeCamp</footer>
+  </body>
+</html>
